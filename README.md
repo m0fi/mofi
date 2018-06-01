@@ -1,2 +1,0 @@
-# mofi
-Kik

@@ -1,0 +1,57 @@
+.class public abstract Lcom/kik/e/a/a/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field private static a:Lcom/kik/e/a/a/b;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .prologue
+    .line 12
+    const/4 v0, 0x0
+
+    sput-object v0, Lcom/kik/e/a/a/b;->a:Lcom/kik/e/a/a/b;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 10
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static a()Lcom/kik/e/a/a/b;
+    .locals 1
+
+    .prologue
+    .line 15
+    sget-object v0, Lcom/kik/e/a/a/b;->a:Lcom/kik/e/a/a/b;
+
+    return-object v0
+.end method
+
+.method public static a(Lcom/kik/e/a/a/b;)V
+    .locals 0
+
+    .prologue
+    .line 19
+    sput-object p0, Lcom/kik/e/a/a/b;->a:Lcom/kik/e/a/a/b;
+
+    .line 20
+    return-void
+.end method
+
+
+# virtual methods
+.method protected abstract a(Ljava/lang/String;Lcom/yahoo/squidb/data/SquidDatabase$a;I)Lcom/yahoo/squidb/data/d;
+.end method
